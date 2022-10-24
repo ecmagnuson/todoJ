@@ -17,8 +17,10 @@ public class TodoJ {
 		options.addOption("a", false, "add an item to the text file.");
 		options.addOption("d", false, "remove an item from the text file.");
 		options.addOption("lsc", false, "list out all of the contexts.");
-		
-		
+		options.addOption("ls", false, "list out all of the items to do.");
+		options.addOption("lsd", false, "list out all of the done objects.");
+		options.addOption("lsda", false, "list out all of the done objects with specific context.");
+		options.addOption("h", false, "list out the options and what they do.");
 		return options;
 	}
 	
